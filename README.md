@@ -2,6 +2,8 @@
 
 Calculated 50 years of income and taxes for 4 states - Arizona, california, Kansas, and Illinois.
 
+Did the project in Node.js and Java.
+
 FLOW OF SEQUENCE
 
 * app REQUIRES arizonaState/ californiaState/ kansasState/ illinoisState DEPENDING ON THE STATE ENTERED
