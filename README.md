@@ -4,6 +4,8 @@ Calculated 50 years of income and taxes for 4 states - Arizona, california, Kans
 
 Did the project in Node.js and Java.
 
+If you want to run this project in node.js, install "readline-sync".
+
 FLOW OF SEQUENCE
 
 * app REQUIRES arizonaState/ californiaState/ kansasState/ illinoisState DEPENDING ON THE STATE ENTERED
@@ -72,7 +74,8 @@ Example: As an example of Arizona
 		    taxes = state_taxes + federal_taxes
 
 
-#Applying Randomness - Extra Credit
+#Applied Randomness
+	* Applied Randomness for Annual Inflation Rate and Annual Income Increase Rate
 	* Based on few observations of United States rate of annual inflation for years 2006 - present, it fell in the range of [-0.75, 3.50].
 	* Random annual inflation rate's (roi) & annual income increase rate (ari) are calculated in "generateRandom.js"
 	* Hence, I applied randomness to the annual rate of inflation in the range of [-0.75, 3.50]
